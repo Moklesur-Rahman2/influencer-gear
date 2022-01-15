@@ -9,6 +9,9 @@
     <!-- Css file -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="responsive.css">
+
     <!-- Font awesome icon -->
     <script src="https://kit.fontawesome.com/8e6796f028.js" crossorigin="anonymous"></script>
 
@@ -20,10 +23,23 @@
     <header>
         <div class="container">
             <div class="main-header flex-div">
+                <div class="mobile-menu small-device-only">
+                    <div class="menu-bar">
+                        <a href="#" class="menu-icon"><i class="fas fa-bars"></i></a>
+                        <nav>
+                            <a href="#">Home</a>
+                            <a href="#">Products</a>
+                            <a href="#">Sign up</a>
+                            <a href="#">Log in</a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                            <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
+                        </nav>
+                    </div>
+                </div>
                 <div class="logo-area">
                     <h1 class="logo-text">Influencer products</h1>
                 </div>
-                <div class="menu-bar">
+                <div class="menu-bar dektop-menu">
                     <nav>
                         <a href="#">Home</a>
                         <a href="#">Products</a>
@@ -33,6 +49,7 @@
                         <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
                     </nav>
                 </div>
+                <div class="small-device-only cart"><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
             </div>
         </div>
     </header>
@@ -53,7 +70,7 @@
         </section>
         <section class="brand-logo">
             <div class="container">
-                <div class="content-wrap flex-div">
+                <div class="content-wrap logos">
                     <img src="images/Alibaba.svg" alt="Alibaba" class="logo">
                     <img src="images/Amazon.svg" alt="Amazon" class="logo">
                     <img src="images/Daraz.svg" alt="Daraz" class="logo">

@@ -33,7 +33,7 @@ p{
     --footer-bg: #0A0826;
 }
 .container{
-    max-width: 1280px;
+    max-width: 1120px;
     margin: auto;
     display: block;
     padding: 64px 0;
@@ -56,6 +56,10 @@ p{
 }
 .fa-arrow-right{
     margin-left: 16px;
+}
+
+.small-device-only{
+    display: none;
 }
 /* ------- Header area style ------
 ---------------------------------*/
@@ -85,6 +89,13 @@ header .main-header nav a{
 /*------------ Brand logo section style -----------
 --------------------------------------------------*/
 .brand-logo .content-wrap{
+    justify-content: space-between;
+}
+.brand-logo .logos{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 40px;
+    align-items: center;
     justify-content: space-between;
 }
 .brand-logo .content-wrap img{

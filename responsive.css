@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1150px){
+    .container{
+        padding: 32px;
+    }
+    .brand-logo .logos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 40px;
+        justify-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+/*---------- Reponsive for Tablet ( 1024px ) -----
+-------------------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+
+    /*---------- Header ----------
+    ----------------------------*/
+
+    .container{
+        padding: 32px 64px;
+    }
+    .dektop-menu{
+        display: none;
+    }
+    .small-device-only{
+        display: block;
+    }
+    .small-device-only nav{
+        display: none;
+    }
+    .small-device-only i{
+        color: var(--text-color);
+        font-size: 28px;
+    }
+
+    /*---------- Hero section  ----------
+    ----------------------------*/
+
+    .hero-section .flex-div{
+        flex-direction: column-reverse;
+    }
+    .hero-section .text-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .hero-section .text-area p{
+        text-align: center;
+    }
+
+/*---------- logo section  ----------
+    ----------------------------*/
+
+    .brand-logo .logos{
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 40px;
+    }
+
+    /*---------- product section  ----------
+    ----------------------------*/
+
+    .populer-collection .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+  }
+
+  @media only screen and (max-width: 769px){
+      .container{
+          padding: 32px;
+      }
+      .hero-section .img-area img{
+          width: 100%;
+      }
+    .brand-logo .logos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center
+    }
+  }
+
+
+  @media only screen and (max-width: 426px){
+      .container{
+          padding: 32px 20px ;
+      }
+      .brand-logo .logos{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-column-gap: 8px;
+          justify-content: space-between;
+          justify-items: center;
+      }
+      .populer-collection .products{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+      }
+  }
+
+  @media only screen and (max-width: 376px){
+    .logo-text {
+        text-align: center;
+    }
+  }
