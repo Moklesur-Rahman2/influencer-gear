@@ -54,6 +54,9 @@ p{
 .logo-text{
     font-size: 28px;
 }
+.fa-arrow-right{
+    margin-left: 16px;
+}
 /* ------- Header area style ------
 ---------------------------------*/
 
@@ -66,13 +69,17 @@ header .main-header nav a{
     color: var(--text-color);
     padding: 4px 8px;
     margin-right: 16px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /*------------ Hero section style -----------
 --------------------------------------------*/
 .hero-section .content-wrap .text-area p{
     max-width: 600px;
-    margin-bottom: 32px;
+    margin: 32px 0;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 /*------------ Brand logo section style -----------
@@ -95,6 +102,18 @@ header .main-header nav a{
     grid-column-gap: 32px;
     grid-row-gap: 32px;
     margin-top: 64px;
+}
+.populer-collection .product .product-rating{
+    display: flex;
+    align-items: center;
+}
+.populer-collection .product .product-rating .stars{
+    display: flex;
+    margin-right: 8px;
+}
+.populer-collection .product .product-rating .stars .star{
+    margin: 0 2px;
+    color: #FB8200;
 }
 .populer-collection .products .product{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
