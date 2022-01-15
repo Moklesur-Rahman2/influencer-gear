@@ -83,6 +83,13 @@
         grid-template-columns: repeat(3, 1fr);
         justify-items: center
     }
+    .trending-influencers .influencers{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 64px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
   }
 
 
@@ -101,6 +108,13 @@
           display: grid;
           grid-template-columns: repeat(1, 1fr);
       }
+      .trending-influencers .influencers{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 64px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
   }
 
   @media only screen and (max-width: 376px){
