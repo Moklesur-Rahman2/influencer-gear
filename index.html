@@ -12,47 +12,56 @@
     <!-- Font awesome icon -->
     <script src="https://kit.fontawesome.com/8e6796f028.js" crossorigin="anonymous"></script>
 
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo-area">
-                <h1>Influencer products</h1>
-            </div>
-            <div class="menu-bar">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Products</a>
-                    <a href="#">Sign up</a>
-                    <a href="#">Log in</a>
-                    <a href="#"><i class="fas fa-search"></i></a>
-                    <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
-                </nav>
+            <div class="main-header flex-div">
+                <div class="logo-area">
+                    <h1 class="logo-text">Influencer products</h1>
+                </div>
+                <div class="menu-bar">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Products</a>
+                        <a href="#">Sign up</a>
+                        <a href="#">Log in</a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                        <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
     <main>
         <section class="hero-section">
             <div class="container">
-                <div class="text-area">
-                    <h1>Start your Journey as Influencer</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
-                    <a href="#" class="main-button">Preebook now <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="img-area">
-                    <img src="images/hero-img.png" alt="camera">
+                <div class="content-wrap flex-div">
+                    <div class="text-area">
+                        <h1>Start your Journey as Influencer</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                        <a href="#" class="main-button">Preebook now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="img-area">
+                        <img src="images/hero-img.png" alt="camera">
+                    </div>
                 </div>
             </div>
         </section>
         <section class="brand-logo">
             <div class="container">
-                <img src="images/Alibaba.svg" alt="Alibaba" class="logo">
-                <img src="images/Amazon.svg" alt="Amazon" class="logo">
-                <img src="images/Daraz.svg" alt="Daraz" class="logo">
-                <img src="images/Ebay.svg" alt="Ebay" class="logo">
-                <img src="images/Rakuten.svg" alt="Rakuten" class="logo">
-                <img src="images/Walmart.svg" alt="Walmart" class="logo">
-                <img src="images/Target.svg" alt="Target" class="logo">
+                <div class="content-wrap flex-div">
+                    <img src="images/Alibaba.svg" alt="Alibaba" class="logo">
+                    <img src="images/Amazon.svg" alt="Amazon" class="logo">
+                    <img src="images/Daraz.svg" alt="Daraz" class="logo">
+                    <img src="images/Ebay.svg" alt="Ebay" class="logo">
+                    <img src="images/Rakuten.svg" alt="Rakuten" class="logo">
+                    <img src="images/Walmart.svg" alt="Walmart" class="logo">
+                    <img src="images/Target.svg" alt="Target" class="logo">
+                </div>
             </div>
         </section>
         <section class="populer-collection">
@@ -123,10 +132,27 @@
                         <p class="short-des">Wordwide shifting available Buyers protection possible!</p>
                     </div>
                 </div>
+                <div class="see-more">
+                    <a href="#">See more<i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
         </section>
         <section class="call-to-action"></section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="content-wrap">
+                <h1 class="logo-text">Influencer products</h1>
+                <p class="copyright">Copyright © 2020 influencer products
+                    All rights reserved</p>
+                <div class="social-icons flex-div">
+                    <div class="icon"><a href="#"><i class="fab fa-instagram"></i></a></div>
+                    <div class="icon"><a href="#"><i class="fab fa-dribbble"></i></a></div>
+                    <div class="icon"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                    <div class="icon"><a href="#"><i class="fab fa-youtube"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
